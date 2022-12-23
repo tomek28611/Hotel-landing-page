@@ -14,14 +14,14 @@ const Rooms = () => {
         </div>
 
         <div className="grid grid-cols-2 col-span-2 gap-2">
-            <img src={r1} alt="" className="object-cover w-full h-full" />
-            <img src={r2} alt="" className="row-span-2 object-cover w-full h-full" />
-            <img src={r3} alt="" className="object-cover w-full h-full" />
+            <img className="object-cover w-full h-full" src={r1} alt=""  />
+            <img className="row-span-2 object-cover w-full h-full" src={r2} alt=""  />
+            <img className="object-cover w-full h-full"  src={r3} alt="" />
 
 
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Rooms
+export default Rooms;
